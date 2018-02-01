@@ -7,7 +7,7 @@ filename = "Crypto Data " + datetime.datetime.now().strftime("%Y-%m-%d")
 filenameStr = str(filename)
 
 
-driver = webdriver.PhantomJS(executable_path = r'C:\Users\PC\Desktop\CryptoPrices\phantomjs-2.1.1-windows\bin\phantomjs.exe')
+driver = webdriver.PhantomJS(executable_path = r'C:\Users\YourPCNameHere\Desktop\CryptoPrices\phantomjs-2.1.1-windows\bin\phantomjs.exe')
 
 
 driver.get('https://coinranking.com/')
